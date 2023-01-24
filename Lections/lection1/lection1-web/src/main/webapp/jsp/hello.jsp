@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Hello</title>
 </head>
 <body>
-$END$
+<p> Hello <%= request.getAttribute("message")%>!</p>
 </body>
 </html>
